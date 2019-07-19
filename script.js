@@ -1,5 +1,4 @@
 /*/let idade = Number(prompt("digite sua idade"));
-
 if(idade >=25 && idade <= 60){
     let salario = Number(prompt("digite seu salario"));
         if (salario  >=2000){
@@ -15,8 +14,6 @@ if(idade >=25 && idade <= 60){
         }else{
             console.log("Idade não permitida para empréstimo")
         }
-
-
         CALLENDARIO */
 
 
@@ -44,18 +41,26 @@ if(idade >=25 && idade <= 60){
 //     }
 
 
-let idade = Number(prompt("Digite sua idade"));
-let aposentado = prompt("voce e aposentado?")
-let estudando = prompt("voce e estudadante?")
+// let idade = Number(prompt("Digite sua idade"));
+// let aposentado = prompt("voce e aposentado?")
+// let estudando = prompt("voce e estudadante?")
 
-if(idade >= 60 || aposentado ===  "sim"){
- alert("ENTRADA GRATIS");
-} else if (idade >= 0 && idade <= 12 ) {
-    alert("ENTRADA:10 REAIS");
-}else if (idade >= 13 && idade <= 17 ){
-    alert("ENTRADA:15 REAIS");
-}else if (idade >= 18 && idade >= 59){
-    alert("ENTRADA 35 REAIS")
-}else {(idade <=18 && idade >= 59 && estudando === "sim")
-    alert("MEIA ENTRADA 17.50 REAIS")
+// if(idade >= 60 || aposentado ===  "sim"){
+//  alert("ENTRADA GRATIS");
+// } else if (idade >= 0 && idade <= 12 ) {
+//     alert("ENTRADA:10 REAIS");
+// }else if (idade >= 13 && idade <= 17 ){
+//     alert("ENTRADA:15 REAIS");
+// }else if (idade >= 18 && idade >= 59){
+//     alert("ENTRADA 35 REAIS")
+// }else {(idade <=18 && idade >= 59 && estudando === "sim")
+//     alert("MEIA ENTRADA 17.50 REAIS")
+// }
+
+let telefone = prompt("digite o seu telefone")
+
+if(telefone[0] == "9" && telefone.length == 9){
+   alert("telefone valido")
+}else {
+    alert("telefone invalido")
 }
